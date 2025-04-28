@@ -382,7 +382,10 @@ nav ul li.active { background: var(--accent); color: var(--bg); }
 
     .modal-content {
         flex-direction: column; /* Stack poster and info */
-        width: 90%;
+        width: 100%;
+        height: 100%;
+        max-width: 100vw;
+        max-height: 100vh;
         margin: 10% auto;
     }
 

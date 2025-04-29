@@ -4,9 +4,9 @@ const urlsToCache = [
   '/index.html',
   '/style.css',
   '/script.js',
-  // Add paths to your app icons if you have them
-  // '/icon-192x192.png',
-  // '/icon-512x512.png',
+  // Add paths to your app icons (Make sure these files exist!)
+  '/icon-192x192.png',
+  '/icon-512x512.png',
   // Add other essential static assets
 ];
 

@@ -4,9 +4,6 @@ const urlsToCache = [
   '/Video-Test-v2/index.html',
   '/Video-Test-v2/style.css',
   '/Video-Test-v2/script.js',
-  // Add paths to your app icons (Make sure these files exist!)
-  '/Video-Test-v2/icon-192x192.png',
-  '/Video-Test-v2/icon-512x512.png',
   // Add other essential static assets
 ];
 

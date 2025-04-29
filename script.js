@@ -838,7 +838,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- PWA Service Worker Registration ---
     if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-            navigator.serviceWorker.register('/sw.js')
+            // Adjust path for GitHub Pages subdirectory
+            navigator.serviceWorker.register('/Video-Test-v2/sw.js') 
                 .then(registration => {
                     console.log('ServiceWorker registration successful with scope: ', registration.scope);
                 })
